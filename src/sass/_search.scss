@@ -1,0 +1,20 @@
+body {
+  background-image: url("../images/map3.jpg");
+ 
+  background-size: auto;
+  background-color: rgb(134, 223, 250);
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+}
+.input-container {
+  margin:30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  box-shadow: 3px 5px 5px 1px rgb(0 0 0 / 40%);
+  border: 2px solid rgb(0 0 0 / 100%);
+  border-radius: 5px;
+}
