@@ -18,10 +18,7 @@ function onSearch(e) {
     cardContainerEl.innerHTML = '';
     fetch.fetchCountries(searchQuery)
     .then(onRender)
-    .catch(onError)
-    .finally(() => {inputEl.value = "";
-        
-    });
+    .catch(onError);
 };
 
 function onRender(data) {
